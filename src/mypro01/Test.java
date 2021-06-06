@@ -3,7 +3,7 @@ package mypro01;
 public class Test {
 	public static void main(String[] args) {
 		int a = 1;
-		int b = a; // 将a的值赋给b；b将a的值复制了一份，之后这两个值相互独立
+		int b = a; // 将a的值赋给b；b将a的值复制了一份，两个变量相互独立
 //		此处的等号表示的是赋值
 		a++;
 		System.out.println(a);
