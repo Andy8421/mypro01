@@ -4,31 +4,30 @@ package mypro01;
 
 public class TestIf {
 	public static void main(String[] args) {
-		//²âÊÔifÓï¾ä		
+		//æµ‹è¯•ifè¯­å¥		
 		double d = Math.random();
-		int e = (int)(d*5); 	//Ç¿ÐÐ½«ÖµÊä³öÎª[0,4]µÄÕûÊýÀàÐÍ
+		int e = (int)(d*5); 	//å¼ºè¡Œå°†å€¼è¾“å‡ºä¸º[0,4]çš„æ•´æ•°ç±»åž‹
 		System.out.println(d);
 		System.out.println(e);
 		
-		if(e>=2&&e<=3){				/*ifºóÃæÈç¹ûÃ»ÓÐ{}£¬ÔòÔÚÌõ¼þÂú×ãÊ±£¬
-		Ö»»áÖ´ÐÐµÚÒ»¾ä¡£×¢Òâ£¬´Ë´¦²»ÄÜÐ´2<=e<=3*/
-			System.out.println("ÔÚ·¶Î§ÄÚ");
+		if(e>=2&&e<=3){				
+			System.out.println("åœ¨èŒƒå›´å†…");
 		}else {
-			System.out.println("Î´ÂäÔÚ·¶Î§ÄÚ");
+			System.out.println("æœªè½åœ¨èŒƒå›´å†…");
 		}
 		
-		//²âÊÔ¶àÑ¡Ôñ½á¹¹
-		System.out.println("²âÊÔÔËÆø");
+		//æµ‹è¯•å¤šé€‰æ‹©ç»“æž„
+		System.out.println("æµ‹è¯•è¿æ°”");
 		if(e==3){
-			System.out.println("ÔËÆø·Ç³£ºÃ£¡");
+			System.out.println("è¿æ°”éžå¸¸å¥½ï¼");
 		}else if(e==4){
-			System.out.println("ÔËÆø²»´í£¡");
+			System.out.println("è¿æ°”ä¸é”™ï¼");
 		}else if(e==2) {
-			System.out.println("ÖÐ½±£¡");
+			System.out.println("ä¸­å¥–ï¼");
 		}else {
-			System.out.println("Ð»Ð»»Ý¹Ë£¡");
+			System.out.println("è°¢è°¢æƒ é¡¾ï¼");
 		}
 		
-//¶àÑ¡Ôò½á¹¹ÓÐÊ±¿ÉÒÔÓÃSwitchÓï¾ä´úÌæ 		
+//å¤šé€‰åˆ™ç»“æž„æœ‰æ—¶å¯ä»¥ç”¨Switchè¯­å¥ä»£æ›¿ 		
 	}
 }
